@@ -6,6 +6,8 @@ import javax.xml.bind.annotation.XmlID;
 
 @Entity
 @Table(name="Empleado")
+
+// clase de  Empleado
 public class Empleado {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -69,4 +71,3 @@ public class Empleado {
         this.rol = rol;
     }
 }
-
